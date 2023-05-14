@@ -82,8 +82,8 @@ def main():
     for i in range(0, 9):
       if(analyzeboard(board)!=0):
         break;
-        if((i+player)%2==0):
-          CompTurn(board);
+      if((i+player)%2==0):
+        CompTurn(board);
       else:
         ConstBoard(board);
         User1Turn(board);
