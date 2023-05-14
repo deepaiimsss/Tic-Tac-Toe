@@ -101,10 +101,14 @@ def main():
   x=analyzeboard(board);
   if(x==0):
     ConstBoard(board);
-    print("Draw!!");
+    print("The match became Draw!!");
   if(x==-1):
     ConstBoard(board);
     print("Player X Wins!! O Looses!!!");
   if(x==1):
     ConstBoard(board);
     print("Player O Wins!! X Looses!!!");
+   
+#-------------------#
+main()
+#-------------------#
